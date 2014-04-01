@@ -114,8 +114,6 @@
 		34FF144B18EAD5EE00175E25 /* DataMe */ = {
 			isa = PBXGroup;
 			children = (
-				34FF145418EAD5EE00175E25 /* VVBSAppDelegate.h */,
-				34FF145518EAD5EE00175E25 /* VVBSAppDelegate.m */,
 				34FF145718EAD5EE00175E25 /* Main_iPhone.storyboard */,
 				34FF145A18EAD5EE00175E25 /* Main_iPad.storyboard */,
 				34FF145D18EAD5EE00175E25 /* VVBSViewController.h */,
@@ -129,6 +127,8 @@
 		34FF144C18EAD5EE00175E25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34FF145418EAD5EE00175E25 /* VVBSAppDelegate.h */,
+				34FF145518EAD5EE00175E25 /* VVBSAppDelegate.m */,
 				34FF144D18EAD5EE00175E25 /* DataMe-Info.plist */,
 				34FF144E18EAD5EE00175E25 /* InfoPlist.strings */,
 				34FF145118EAD5EE00175E25 /* main.m */,
