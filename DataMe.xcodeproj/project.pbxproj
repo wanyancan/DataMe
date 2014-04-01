@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FF144618EAD5EE00175E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF144518EAD5EE00175E25 /* Foundation.framework */; };
+		34FF144818EAD5EE00175E25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF144718EAD5EE00175E25 /* CoreGraphics.framework */; };
+		34FF144A18EAD5EE00175E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF144918EAD5EE00175E25 /* UIKit.framework */; };
+		34FF145018EAD5EE00175E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FF144E18EAD5EE00175E25 /* InfoPlist.strings */; };
+		34FF145218EAD5EE00175E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF145118EAD5EE00175E25 /* main.m */; };
+		34FF145618EAD5EE00175E25 /* VVBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF145518EAD5EE00175E25 /* VVBSAppDelegate.m */; };
+		34FF145918EAD5EE00175E25 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FF145718EAD5EE00175E25 /* Main_iPhone.storyboard */; };
+		34FF145C18EAD5EE00175E25 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FF145A18EAD5EE00175E25 /* Main_iPad.storyboard */; };
+		34FF145F18EAD5EE00175E25 /* VVBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF145E18EAD5EE00175E25 /* VVBSViewController.m */; };
+		34FF146118EAD5EE00175E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FF146018EAD5EE00175E25 /* Images.xcassets */; };
+		34FF146818EAD5EE00175E25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF146718EAD5EE00175E25 /* XCTest.framework */; };
+		34FF146918EAD5EE00175E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF144518EAD5EE00175E25 /* Foundation.framework */; };
+		34FF146A18EAD5EE00175E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF144918EAD5EE00175E25 /* UIKit.framework */; };
+		34FF147218EAD5EE00175E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FF147018EAD5EE00175E25 /* InfoPlist.strings */; };
+		34FF147418EAD5EE00175E25 /* DataMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF147318EAD5EE00175E25 /* DataMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FF146B18EAD5EE00175E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FF143A18EAD5EE00175E25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FF144118EAD5EE00175E25;
+			remoteInfo = DataMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34FF144218EAD5EE00175E25 /* DataMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FF144518EAD5EE00175E25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34FF144718EAD5EE00175E25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34FF144918EAD5EE00175E25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34FF144D18EAD5EE00175E25 /* DataMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataMe-Info.plist"; sourceTree = "<group>"; };
+		34FF144F18EAD5EE00175E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34FF145118EAD5EE00175E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34FF145318EAD5EE00175E25 /* DataMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataMe-Prefix.pch"; sourceTree = "<group>"; };
+		34FF145418EAD5EE00175E25 /* VVBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVBSAppDelegate.h; sourceTree = "<group>"; };
+		34FF145518EAD5EE00175E25 /* VVBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVBSAppDelegate.m; sourceTree = "<group>"; };
+		34FF145818EAD5EE00175E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		34FF145B18EAD5EE00175E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		34FF145D18EAD5EE00175E25 /* VVBSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVBSViewController.h; sourceTree = "<group>"; };
+		34FF145E18EAD5EE00175E25 /* VVBSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVBSViewController.m; sourceTree = "<group>"; };
+		34FF146018EAD5EE00175E25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34FF146618EAD5EE00175E25 /* DataMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FF146718EAD5EE00175E25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34FF146F18EAD5EE00175E25 /* DataMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataMeTests-Info.plist"; sourceTree = "<group>"; };
+		34FF147118EAD5EE00175E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34FF147318EAD5EE00175E25 /* DataMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FF143F18EAD5EE00175E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF144818EAD5EE00175E25 /* CoreGraphics.framework in Frameworks */,
+				34FF144A18EAD5EE00175E25 /* UIKit.framework in Frameworks */,
+				34FF144618EAD5EE00175E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF146318EAD5EE00175E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF146818EAD5EE00175E25 /* XCTest.framework in Frameworks */,
+				34FF146A18EAD5EE00175E25 /* UIKit.framework in Frameworks */,
+				34FF146918EAD5EE00175E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FF143918EAD5EE00175E25 = {
+			isa = PBXGroup;
+			children = (
+				34FF144B18EAD5EE00175E25 /* DataMe */,
+				34FF146D18EAD5EE00175E25 /* DataMeTests */,
+				34FF144418EAD5EE00175E25 /* Frameworks */,
+				34FF144318EAD5EE00175E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FF144318EAD5EE00175E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FF144218EAD5EE00175E25 /* DataMe.app */,
+				34FF146618EAD5EE00175E25 /* DataMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FF144418EAD5EE00175E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FF144518EAD5EE00175E25 /* Foundation.framework */,
+				34FF144718EAD5EE00175E25 /* CoreGraphics.framework */,
+				34FF144918EAD5EE00175E25 /* UIKit.framework */,
+				34FF146718EAD5EE00175E25 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34FF144B18EAD5EE00175E25 /* DataMe */ = {
+			isa = PBXGroup;
+			children = (
+				34FF145418EAD5EE00175E25 /* VVBSAppDelegate.h */,
+				34FF145518EAD5EE00175E25 /* VVBSAppDelegate.m */,
+				34FF145718EAD5EE00175E25 /* Main_iPhone.storyboard */,
+				34FF145A18EAD5EE00175E25 /* Main_iPad.storyboard */,
+				34FF145D18EAD5EE00175E25 /* VVBSViewController.h */,
+				34FF145E18EAD5EE00175E25 /* VVBSViewController.m */,
+				34FF146018EAD5EE00175E25 /* Images.xcassets */,
+				34FF144C18EAD5EE00175E25 /* Supporting Files */,
+			);
+			path = DataMe;
+			sourceTree = "<group>";
+		};
+		34FF144C18EAD5EE00175E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FF144D18EAD5EE00175E25 /* DataMe-Info.plist */,
+				34FF144E18EAD5EE00175E25 /* InfoPlist.strings */,
+				34FF145118EAD5EE00175E25 /* main.m */,
+				34FF145318EAD5EE00175E25 /* DataMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FF146D18EAD5EE00175E25 /* DataMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FF147318EAD5EE00175E25 /* DataMeTests.m */,
+				34FF146E18EAD5EE00175E25 /* Supporting Files */,
+			);
+			path = DataMeTests;
+			sourceTree = "<group>";
+		};
+		34FF146E18EAD5EE00175E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FF146F18EAD5EE00175E25 /* DataMeTests-Info.plist */,
+				34FF147018EAD5EE00175E25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FF144118EAD5EE00175E25 /* DataMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FF147718EAD5EE00175E25 /* Build configuration list for PBXNativeTarget "DataMe" */;
+			buildPhases = (
+				34FF143E18EAD5EE00175E25 /* Sources */,
+				34FF143F18EAD5EE00175E25 /* Frameworks */,
+				34FF144018EAD5EE00175E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataMe;
+			productName = DataMe;
+			productReference = 34FF144218EAD5EE00175E25 /* DataMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FF146518EAD5EE00175E25 /* DataMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FF147A18EAD5EE00175E25 /* Build configuration list for PBXNativeTarget "DataMeTests" */;
+			buildPhases = (
+				34FF146218EAD5EE00175E25 /* Sources */,
+				34FF146318EAD5EE00175E25 /* Frameworks */,
+				34FF146418EAD5EE00175E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FF146C18EAD5EE00175E25 /* PBXTargetDependency */,
+			);
+			name = DataMeTests;
+			productName = DataMeTests;
+			productReference = 34FF146618EAD5EE00175E25 /* DataMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FF143A18EAD5EE00175E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VVBS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = VVBS;
+				TargetAttributes = {
+					34FF146518EAD5EE00175E25 = {
+						TestTargetID = 34FF144118EAD5EE00175E25;
+					};
+				};
+			};
+			buildConfigurationList = 34FF143D18EAD5EE00175E25 /* Build configuration list for PBXProject "DataMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FF143918EAD5EE00175E25;
+			productRefGroup = 34FF144318EAD5EE00175E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FF144118EAD5EE00175E25 /* DataMe */,
+				34FF146518EAD5EE00175E25 /* DataMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FF144018EAD5EE00175E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF145C18EAD5EE00175E25 /* Main_iPad.storyboard in Resources */,
+				34FF146118EAD5EE00175E25 /* Images.xcassets in Resources */,
+				34FF145918EAD5EE00175E25 /* Main_iPhone.storyboard in Resources */,
+				34FF145018EAD5EE00175E25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF146418EAD5EE00175E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF147218EAD5EE00175E25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FF143E18EAD5EE00175E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF145218EAD5EE00175E25 /* main.m in Sources */,
+				34FF145618EAD5EE00175E25 /* VVBSAppDelegate.m in Sources */,
+				34FF145F18EAD5EE00175E25 /* VVBSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF146218EAD5EE00175E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF147418EAD5EE00175E25 /* DataMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FF146C18EAD5EE00175E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FF144118EAD5EE00175E25 /* DataMe */;
+			targetProxy = 34FF146B18EAD5EE00175E25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34FF144E18EAD5EE00175E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FF144F18EAD5EE00175E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34FF145718EAD5EE00175E25 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FF145818EAD5EE00175E25 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		34FF145A18EAD5EE00175E25 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FF145B18EAD5EE00175E25 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		34FF147018EAD5EE00175E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FF147118EAD5EE00175E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FF147518EAD5EE00175E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34FF147618EAD5EE00175E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FF147818EAD5EE00175E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataMe/DataMe-Prefix.pch";
+				INFOPLIST_FILE = "DataMe/DataMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34FF147918EAD5EE00175E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataMe/DataMe-Prefix.pch";
+				INFOPLIST_FILE = "DataMe/DataMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34FF147B18EAD5EE00175E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataMe.app/DataMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataMe/DataMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DataMeTests/DataMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34FF147C18EAD5EE00175E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataMe.app/DataMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataMe/DataMe-Prefix.pch";
+				INFOPLIST_FILE = "DataMeTests/DataMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FF143D18EAD5EE00175E25 /* Build configuration list for PBXProject "DataMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF147518EAD5EE00175E25 /* Debug */,
+				34FF147618EAD5EE00175E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FF147718EAD5EE00175E25 /* Build configuration list for PBXNativeTarget "DataMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF147818EAD5EE00175E25 /* Debug */,
+				34FF147918EAD5EE00175E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34FF147A18EAD5EE00175E25 /* Build configuration list for PBXNativeTarget "DataMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF147B18EAD5EE00175E25 /* Debug */,
+				34FF147C18EAD5EE00175E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34FF143A18EAD5EE00175E25 /* Project object */;
+}
